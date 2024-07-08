@@ -77,7 +77,7 @@ def verify_email_confirm(request, uidb64, token):
         messages.warning(request, 'The link is invalid.')
     return render(request, 'blog/auth/email/verify-email-confirm.html')
 
-
+# sofjsifjzziofjzoijziojfioz
 
 
 def sending_email(request):
