@@ -151,8 +151,8 @@ AUTH_USER_MODEL = 'blog.User'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '675835307529-7jhns27cncll0jf9n3vcvemaq1d56lud.apps.googleusercontent.com'  # Google Client ID
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'  # Google Client Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''  # Google Client ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''  # Google Client Secret
 
 LOGIN_REDIRECT_URL = 'index'
 
@@ -160,7 +160,7 @@ LOGIN_REDIRECT_URL = 'index'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'qosimoff06@gmail.com'
-EMAIL_HOST_PASSWORD = 'zcly ninz dwwk illb'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL  = EMAIL_HOST_USER
